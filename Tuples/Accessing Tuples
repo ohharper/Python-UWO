@@ -1,0 +1,7 @@
+tp1=(2,9, 12.8)
+tp2=("hi",2, 9.9)
+print("tp1=",tp1)
+tp1=tp2 
+print ("tp1=",tp1)
+del tp1
+print("tp1=",tp1)

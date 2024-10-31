@@ -8,3 +8,5 @@ elif x>10:
 else: 
     x+=2 
 print(x) 
+
+print("Hi!\rHey RoboGarden, my total mark is %f now"%(12.4)) 

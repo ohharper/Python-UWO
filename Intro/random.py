@@ -7,3 +7,10 @@ ls=[2,8,9]
 for item in ls: 
     x+=item 
 print(x)
+
+ls=[2,10,8,5,11]
+print(ls[-3:])
+
+st ="Hello!"
+st="Garden"
+print (st)

@@ -1,0 +1,8 @@
+tp1=(2,8, "hello")
+tp2=("hi",2, True)
+print("tp1+tp2=", tp1+tp2)
+print("tp1*3=",tp1)
+print("len(tp1)=", len(tp1))
+tp3=(3,1,21,11)
+print("max(tp3)=", max(tp3))
+print("min(tp3)=", min(tp3))
