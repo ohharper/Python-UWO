@@ -26,3 +26,14 @@ def multiply_numbers(*args):
  
 result = multiply_numbers(1, 2, 3)
 print(result)
+
+def example_function(**kwargs):
+    movies = {}  # Create an empty dictionary to store the key-value pairs
+    
+    for key, value in kwargs.items():
+        movies[key] = value  # Save key-value pair in the dictionary
+    return movies
+ 
+# Calling the function with keyword arguments
+result = example_function(movie = "Toy Story", year = 1995, revenue = 395000000)
+print(result)
