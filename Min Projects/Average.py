@@ -5,5 +5,5 @@ def Average(ls):
     length= len(ls)
     return total/length
 
-ls =[1,4]
+ls =[1, a]
 print (Average(ls))
