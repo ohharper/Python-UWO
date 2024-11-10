@@ -49,7 +49,7 @@ if __name__ == "__main__":
 
     inventory.display_inventory()
 
-    product1.update_quantity(-3)
+    product1.update_quantity(-11)
     product2.update_quantity(5)
 
     inventory.display_inventory()
